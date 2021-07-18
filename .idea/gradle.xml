@@ -10,7 +10,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/androidmodule" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/iotmodule" />
+            <option value="$PROJECT_DIR$/javamodule" />
+            <option value="$PROJECT_DIR$/main" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
