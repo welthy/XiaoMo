@@ -1,4 +1,4 @@
-if (isModule.toBoolean()) {
+if (isRelease) {
     apply plugin: 'com.android.application'
 } else {
     apply plugin: 'com.android.library'
@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        if (isModule.toBoolean()) {
+        if (isRelease) {
             applicationId "cn.welthy.androidmodule"
         }
         minSdkVersion 24
