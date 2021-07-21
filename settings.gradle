@@ -4,5 +4,4 @@ include ':androidmodule'
 include ':main'
 include ':common'
 include ':app'
-include 'kotlin'
 rootProject.name = "XiaoMo"
